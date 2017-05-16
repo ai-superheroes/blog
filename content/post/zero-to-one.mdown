@@ -1,0 +1,15 @@
++++
+date = "2017-04-18T16:08:06+02:00"
+draft = true
+title = "Zero To One"
+image = "/images/plane.jpg"
+author = 'Dustin Jaacks'
+avatar = '/images/MikeAllen.jpg'
+label = 'Featured'
++++
+
+Theresa May announced Tuesday that she's calling for a snap general election on June 8. That's earlier than planned.
+
+How it works: May will hold a vote in Parliament on Wednesday for the June 8th election. She'll need 2/3 support to put it in action. Labour (opposition party) leader Jeremy Corbyn said that he "welcomes the PM's decision," which means May will have the votes needed to move forward with an early election.
+
+Why it matters: The move comes as May continues to finalize negotiations for Brexit, which she has previously stated that she wants to happen as soon as possible, and an early election means less negotiating time with the E.U.
