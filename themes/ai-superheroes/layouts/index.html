@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+
+</header>
+<div id="main">
+
+{{ partial "sidebar.html" . }}
+<section id="content">
+  {{ range where .Data.Pages "Type" "post" }}
+  {{ .Render "li" }}
+  {{ end }}
+
+  {{ partial "pagination.html" .Paginator }}
+</section>
+{{ partial "footer.html" . }}

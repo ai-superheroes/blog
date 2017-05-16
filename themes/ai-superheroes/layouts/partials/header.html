@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <title>{{ if ne .URL "/" }}{{ .Title }} &middot; {{ end }}{{ .Site.Title }}</title>
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css" />
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/font-awesome.min.css" />
+
+  <meta property="og:url"           content="{{ .Permalink }}" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content='{{ if ne .URL "/" }}{{ .Title }} &middot; {{ end }}{{ .Site.Title }}' />
+  <meta property="og:description"   content="{{ .Summary }}" />
+  <meta property="og:image"         content='{{ .Site.BaseURL }}{{ with .Params.image }}{{ . }}{{ end }}' />
+</head>
+<body>
+
+<header id="header">
+  <div class="inner">
+    <a href="{{ .Site.BaseURL }}"><span id="site-title">{{ .Site.Title }}</span></a>
+
+    <nav>
+      <span><a href="/">Home</a></span>
+    </nav>
+  </div>
+
